@@ -1,6 +1,6 @@
 ---
 name: greet
-pack: sense
+pack: stackstrt
 runner_type: "local-shell-script"
 description: Greet StackStorm!
 enabled: true
