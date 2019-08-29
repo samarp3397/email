@@ -1,10 +1,10 @@
 ---
 name: greet
-pack: hello_st2
-runner_type: "local-shell-script"
+pack: sense
+runner_type: "Python-script"
 description: Greet StackStorm!
 enabled: true
-entry_point: greet.sh
+entry_point: action1.py
 parameters:
     greeting:
         type: string
